@@ -7294,6 +7294,13 @@ ul.slick-dots li button {
 .rn-video-popup-area .thumbnail img {
     border-radius: 8px;
     object-fit: cover;
+ transition: transform .5s, filter 1.5s ease-in-out; 
+ filter: grayscale(100%);
+}
+
+.thumbnail:hover img{
+    filter: grayscale(0);
+    transform: scale(1.1);
 }
 
 .color-body-white {
@@ -15493,6 +15500,7 @@ div#featured-project-carousel {
     flex-wrap: wrap;
     margin: 0 -15px;
     margin-top: -30px;
+    
 }
 
 @media only screen and (max-width: 479px) {
