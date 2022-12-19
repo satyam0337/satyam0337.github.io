@@ -1,4 +1,6 @@
-
+.liskill a{
+background-color: black;
+}
 .calendar{
     background-color: white !important;
     margin-bottom: 10px !important;
@@ -56,11 +58,8 @@
     --color-subtitle: #f9004d;
     --background-color-1: linear-gradient(145deg, #1e2024, #23272b);
     --background-color-2: #212428;
-    --shadow-1: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
-    --shadow-2: inset 21px 21px 19px #181a1d, inset -21px -21px 19px #202225;
-    --inner-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
-    --shadow-white-3: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
-    --gradient-box-w: linear-gradient(145deg, #e2e8ec, #ffffff);
+ 
+    /* --gradient-box-w: linear-gradient(145deg, #e2e8ec, #ffffff); */
     --gradient-red-hover: linear-gradient(145deg, #ff014f, #d11414);
     --color-heading: #ffffff;
     --color-heading-wv: #1e2125;
@@ -11277,6 +11276,7 @@ body.template-color-1 {
     margin: 0;
     display: inline;
     font-weight: 500;
+    
 }
 
 .social-share-style-1 {
@@ -15502,7 +15502,11 @@ div#featured-project-carousel {
     margin-top: -30px;
     
 }
-
+#gridskill{
+   
+    background-color: black;
+    
+}
 @media only screen and (max-width: 479px) {
     .client-card {
         padding: 0 20px;
@@ -19464,6 +19468,7 @@ body.white-version {
 .white-version .slide .social-share-inner-left .social-share li a {
     box-shadow: var(--shadow-white-3);
     background: var(--gradient-box-w);
+    background-color: #fcc2ae;
 }
 
 .white-version .slide .social-share-inner-left .social-share li a::before {
@@ -19486,6 +19491,7 @@ body.white-version {
 .white-version .slide .skill-share-inner .skill-share li {
     background: var(--gradient-box-w);
     box-shadow: var(--shadow-white-3);
+    background-color: #fcc2ae;
 }
 
 .white-version .rn-service {
@@ -19720,7 +19726,8 @@ body.white-version {
 }
 
 .white-version .rn-resume-area .rn-nav-list .nav-item .nav-link {
-    color: var(--color-heading-wv);
+
+    /* color: var(--color-heading-wv); */
 }
 
 .white-version .rn-resume-area .rn-nav-list .nav-item .nav-link.active {
@@ -19955,7 +19962,7 @@ body.white-version {
 }
 
 .white-version .rn-client-area .tab-navigation-button .nav-item .nav-link {
-    color: var(--color-body-white);
+    /* color: var(--color-body-white); */
 }
 
 .white-version .rn-client-area .tab-navigation-button .nav-item .nav-link:hover {
