@@ -1,3 +1,11 @@
+.gitstats{
+    display:flex; gap: 2% ; justify-content: center; 
+}
+.resp {
+    display: flex ;
+    flex-direction: column;
+    gap: 20px;
+}
 .liskill a{
 background-color: black;
 }
